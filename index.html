@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renta de Automóviles</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <h1>Esta es mi primera página web y está enfocada en la renta de automóviles</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#tarifas">Tarifas</a></li>
+                <li><a href="#Para Alquilar">Para Alquilar</a> </li>    
+                <li><a href="#Registrate">Registrate</a></li>
+            </ul>
+        </nav>
+        <h5>Renta de Automóviles</h5>        
+        <p>Este sitio ofrece <b>autos modernos</b> y <strong>seguros</strong> para renta.</p>
+        <p>¡Disfruta de la comodidad de un <i>Ford Mustang</i> o un <em>Toyota Corolla</em>!</p>
+        <p><mark>Reserva ahora</mark> y obtén un descuento.</p>
+        <p><small>Promoción válida hasta fin de mes.</small></p>
+        <hr>
+    </header>
+
+    <br>
+    <section id="catalogo" class="catalogo" style="padding-top: 80px;">
+
+        <div class="auto">
+            <img src="img/corolla-base-v3.png" alt="Auto 1">
+            <h3>Modelo: Toyota Corolla</h3>
+            <p><strong>Precio:</strong> $50/día</p>
+            <p><mark>Disponible</mark></p>
+        </div>
+        <div class="auto">
+            <img src="img/MUSTANG-24.png" alt="Auto 2">
+            <h3>Modelo: Ford Mustang</h3>
+            <p><strong>Precio:</strong> $100/día</p>
+            <p><mark>Disponible</mark></p>
+        </div>
+    </section>
+
+    <hr>
+    <section id="tarifas" style="padding-top: 80px;">
+
+        <h3>Tarifas de Renta</h3>
+        <table border="1">
+            <tr>
+                <th>Modelo</th>
+                <th>Precio por Día</th>
+            </tr>
+            <tr>
+                <td>Toyota Corolla</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Ford Mustang</td>
+                <td>$100</td>
+            </tr>
+        </table>
+        <br>
+    </section>
+
+    <hr>
+    <section id="Para Alquilar" style="padding-top: 80px;">
+
+        <h3>Pasos para alquilar un auto</h3>
+        <ol>
+            <li>Elige tu auto favorito</li>
+            <li>Ingresa tu información de contacto</li>
+            <li>Selecciona la fecha de alquiler</li>
+            <li>Espera la confirmación</li>
+        </ol>
+    </section>
+
+    <hr>
+    <section>
+        <h3>Explora nuestros autos</h3>
+        <iframe width="560" height="315" src="Video/corolla.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <hr>
+    <section id="Registrate" style="padding-top: 80px;">
+
+        <h2>Reserva tu Auto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="auto">Selecciona un auto:</label>
+            <select id="auto" name="auto">
+                <option value="Toyota Corolla">Toyota Corolla</option>
+                <option value="Ford Mustang">Ford Mustang</option>
+            </select><br>
+
+            <label for="fecha">Fecha de alquiler:</label>
+            <input type="date" id="fecha" name="fecha"><br>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <hr>
+    <section>
+        <address>
+            <p><b>Renta de Autos</b></p>
+            <p>Dirección: TANTOYUCA VERCRUZ </p>
+            <p>Teléfono: 7891078407</p>
+            <p><b>Email: cesar592547@gmail.com</b></p>
+        </address>
+    </section>
+</body>
+
+
+</html>
